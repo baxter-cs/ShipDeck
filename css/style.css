@@ -1,0 +1,20 @@
+.current-card{
+  display: grid;
+  grid-template-areas: "name"
+                      "description"
+                      "next";
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.current-card .name{
+  grid-area: name;
+}
+.current-card .description{
+  grid-area: description;
+}
+
+.current-card .next{
+  grid-area: next;
+}
